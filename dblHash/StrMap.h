@@ -17,7 +17,7 @@ class StrMap {
 private:
     StrEntry **table;
     int size;
-    int const MINSIZE = 24;
+    int const MINSIZE = 25;
     
 public:
     StrMap();        //no param constructor

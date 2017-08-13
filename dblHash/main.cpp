@@ -14,7 +14,7 @@ using namespace std;    //declares the name space
 
 int main() {
     
-    StrMap smap;
+    StrMap smap;    //instantiate hash map
     
     // stuff a bunch of values in the table
     smap.put(6937, "Mark");
@@ -41,7 +41,7 @@ int main() {
     
     
     // check a key
-    cout << smap.getValue(2134) << " @Key-> 2134" ;
+    cout << smap.getValue(2134) << " @Key-> 2134\n" ;
 
     return 0;
 }

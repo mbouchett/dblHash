@@ -3,6 +3,7 @@
  * Author: mark
  *
  * Created on August 11, 2017, 1:43 AM
+ * creates a data node for the hash table
  */
 
 #ifndef STRENTRY_H
